@@ -44,10 +44,3 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
-
-  - id: google
-    name: Google
-    url: 'https://google.com/'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
