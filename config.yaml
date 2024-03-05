@@ -21,6 +21,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     linkable: false # allows the title to be a link, default=true
+    followRedirect: true
 
   - id: anycast-ca-toronto
     name: Anycast Network - Toronto, CA
@@ -28,15 +29,18 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+    followRedirect: true
 
   - id: as215520-net
     name: AS215520
     url: 'https://as215520.net/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: google
     name: Google
     url: 'https://google.com/'
     method: GET
     expectStatus: 200
+    followRedirect: true
