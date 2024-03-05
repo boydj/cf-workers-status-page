@@ -34,3 +34,9 @@ monitors:
     url: 'https://as215520.net/'
     method: GET
     expectStatus: 200
+
+  - id: google
+    name: Google
+    url: 'https://google.com/'
+    method: GET
+    expectStatus: 200
